@@ -9316,13 +9316,6 @@ value: function () {
                         e.appendChild(t.elements.dynamic.logo),
                         e.classList.remove("--loading");
                         break;
-                    case "offer_background": t.elements.dynamic.offer_background = e,
-                        e.style.backgroundImage = "url('" + t.config.offer.background_image + "')",
-                        e.style.backgroundPosition = "center",
-                        e.style.backgroundSize = "cover",
-                        e.style.backgroundRepeat = "no-repeat",
-                        e.classList.remove("--loading");
-                        break;
                     case "offer_content": t.elements.dynamic.offer_content = {},
                         "" !== t.config.offer.top_offer_text.trim() && (t.elements.dynamic.offer_content.top_offer_text = document.createElement("h1"), t.elements.dynamic.offer_content.top_offer_text.innerText = t.config.offer.top_offer_text, e.appendChild(t.elements.dynamic.offer_content.top_offer_text)),
                         "" !== t.config.offer.top_offer_code.trim() && (t.elements.dynamic.offer_content.top_offer_code = document.createElement("h3"), t.elements.dynamic.offer_content.top_offer_code.innerText = t.config.offer.top_offer_code, e.appendChild(t.elements.dynamic.offer_content.top_offer_code)),
@@ -9330,32 +9323,6 @@ value: function () {
                         "" !== t.config.offer.second_offer_code.trim() && (t.elements.dynamic.offer_content.second_offer_code = document.createElement("h3"), t.elements.dynamic.offer_content.second_offer_code.innerText = t.config.offer.second_offer_code, e.appendChild(t.elements.dynamic.offer_content.second_offer_code)),
                         e.classList.remove("--loading");
                         break;
-                    case "offer_image":
-                        if ("string" == typeof t.config.offer.left_image && "" !== t.config.offer.left_image.trim()) {
-                            var o = t.config.offer.top_offer_text || t.config.offer.second_offer_text || "Offer Image";
-                            t.elements.dynamic.offer_image = document.createElement("img"),
-                            t.elements.dynamic.offer_image.setAttribute("src", t.config.offer.left_image),
-                            t.elements.dynamic.offer_image.setAttribute("alt", t.config.brand.nicename + ": " + o),
-                            e.appendChild(t.elements.dynamic.offer_image)
-                        }
-                        e.classList.remove("--loading");
-                        break;
-                    case "terms": t.elements.dynamic.terms = e,
-                        t.config.brand.hasOwnProperty("terms") && "string" == typeof t.config.brand.terms && "" !== t.config.brand.terms.trim() && (t.elements.dynamic.terms.innerHTML += "<p>" + t.config.brand.terms + "</p>"),
-                        t.elements.dynamic.terms.innerHTML += '<p data-translate="all_rights_reserved">All Rights Reserved.</p><p>Â© ' + (
-                            new Date
-                        ).getFullYear() + " - " + t.config.brand.nicename + "</p>",
-                        e.classList.remove("--loading");
-                        break;
-                    case "providers":
-                        if (t.config.brand.hasOwnProperty("providers") && Array.isArray(t.config.brand.providers) && t.config.brand.providers.length > 0) {
-                            t.elements.dynamic.providers = e;
-                            for (var s = 0; s < t.config.brand.providers.length; s++) 
-                                "string" == typeof t.config.brand.providers[s] && (t.elements.dynamic.providers.innerHTML += '<picture><img src="' + t.config.sourceURL + "/img/providers/" + t.config.brand.providers[s].toLowerCase() + '.png" loading="lazy" alt="Logo ' + t.config.brand.providers[s] + '"/></picture>')
-                            
-                        } else 
-                            e.remove();
-                         e.classList.remove("--loading")
                 }
                 switch (n) {
                     case "affiliate_logo": t.config.hasOwnProperty("offer") && t.config.offer.hasOwnProperty("affiliate_logo") && "string" == typeof t.config.offer.affiliate_logo && "" !== t.config.offer.affiliate_logo.trim() && (t.elements.dynamic.affiliate_logo_figure = document.createElement("figure"), t.elements.dynamic.affiliate_logo_figure.classList.add("welcome__affiliate-logo"), t.elements.dynamic.affiliate_logo_figure.classList.add("--fade"), t.elements.dynamic.affiliate_logo_figure.classList.add("--loading"), t.elements.dynamic.affiliate_logo_figure.innerHTML = '<figcaption data-translate="in_partnership_with">In Partnership With:</figcaption><picture><img src="' + t.config.offer.affiliate_logo + '" loading="lazy" alt="Affiliate Logo"/></picture>', e.prepend(t.elements.dynamic.affiliate_logo_figure), t.elements.dynamic.affiliate_logo_figure.classList.remove("--loading"))

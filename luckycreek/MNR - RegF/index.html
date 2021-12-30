@@ -31,7 +31,7 @@
   </picture>
 </header>
 
-<main class="welcome__offer" data-bind="offer_background">
+<main class="welcome__offer" data-bind="offer_background" id="welcome_offer" style="background-image: url(&quot;https://assets.luckycreek.com/affiliate_offers/e2e7d2c4-6171-11ec-ba68-62898edc0f74.jpg&quot;); background-position: center center; background-size: cover; background-repeat: no-repeat;">
   <div class="welcome__offer-inner relative container mx-auto max-w-6xl">
     <div class="welcome__offer-inner-row pt-10 lg:pt-40 grid lg:grid-cols-3 gap-2">
       <section class="welcome__offer-content -z-middle text-center lg:text-right lg:col-span-2 --fade --loading" data-bind="offer_content">
@@ -41,9 +41,9 @@
         <form id="welcome_registration_form" class="-z-front" data-aris-registration></form>
       </section>
     </div>
-    <picture class="welcome__offer-image -z-middle-back hidden absolute md:block bottom-0 --fade --loading" data-bind="offer_image">
+    <picture class="welcome__offer-image -z-middle-back hidden absolute md:block bottom-0 --fade" data-bind="offer_image">
       <!-- welcome offer image -->
-    </picture>
+    <img src="https://assets.luckycreek.com/affiliate_offers/e53fc978-6171-11ec-952e-62898edc0f74.png" alt="Lucky Creek: 250% Match Bonus "></picture>
   </div>
 </main>
 
@@ -68,12 +68,12 @@
   <picture class="welcome__footer-logo relative mx-auto w-20 lg:w-36 --fade --loading" data-bind="logo">
     <!-- footer logo -->
   </picture>
-  <figure class="welcome__footer-providers relative w-full flex justify-between --fade --loading" data-bind="providers">
+  <figure class="welcome__footer-providers relative w-full flex justify-between --fade" data-bind="providers">
     <!-- provider logos -->
-  </figure>
-  <aside class="welcome__footer-terms relative mx-auto --fade --loading" data-bind="terms">
+  <picture><img src="https://ca-universal.s3.amazonaws.com/welcome/dev/img/providers/saucify.png" loading="lazy" alt="Logo saucify"></picture><picture><img src="https://ca-universal.s3.amazonaws.com/welcome/dev/img/providers/betsoft.png" loading="lazy" alt="Logo betsoft"></picture><picture><img src="https://ca-universal.s3.amazonaws.com/welcome/dev/img/providers/rival.png" loading="lazy" alt="Logo rival"></picture></figure>
+  <aside class="welcome__footer-terms relative mx-auto --fade" data-bind="terms">
     <!-- terms text -->
-  </aside>
+  <p>This Website Is Owned And Operated By Genesys Technology N.V, E-Commerce Park Vredenberg, Curacao, using the Gaming License which is held by Genesys Technology N.V. operated under the License No. 8048/JAZ, Authorized and Regulated by the Government of Curacao.</p><p data-translate="all_rights_reserved">All Rights Reserved.</p><p>Â© 2021 - Lucky Creek</p></aside>
 </footer>
 </body>
 </html>
