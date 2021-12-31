@@ -9309,13 +9309,6 @@ value: function () {
                 var r = e.getAttribute("data-bind"),
                     n = e.getAttribute("data-prepend");
                 switch (r) {
-                    case "logo": t.elements.dynamic.logo = document.createElement("img"),
-                        t.elements.dynamic.logo.setAttribute("src", t.config.sourceURL + "/img/logos/" + t.config.brand.brand_id.toLowerCase() + ".png"),
-                        t.elements.dynamic.logo.setAttribute("alt", t.config.brand.nicename + " Logo"),
-                        t.elements.dynamic.logo.setAttribute("class", "relative mx-auto"),
-                        e.appendChild(t.elements.dynamic.logo),
-                        e.classList.remove("--loading");
-                        break;
                     case "offer_content": t.elements.dynamic.offer_content = {},
                         "" !== t.config.offer.top_offer_text.trim() && (t.elements.dynamic.offer_content.top_offer_text = document.createElement("h1"), t.elements.dynamic.offer_content.top_offer_text.innerText = t.config.offer.top_offer_text, e.appendChild(t.elements.dynamic.offer_content.top_offer_text)),
                         "" !== t.config.offer.top_offer_code.trim() && (t.elements.dynamic.offer_content.top_offer_code = document.createElement("h3"), t.elements.dynamic.offer_content.top_offer_code.innerText = t.config.offer.top_offer_code, e.appendChild(t.elements.dynamic.offer_content.top_offer_code)),
