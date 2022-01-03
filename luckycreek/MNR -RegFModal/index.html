@@ -4,7 +4,7 @@
         <title>Welcome to Lucky Creek Online Casino</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- CSS -->
-        <link rel="stylesheet" media="all" href="assets/css/mob-critical.css" />
+        <link rel="stylesheet" media="all" href="assets/css/critical.css" />
         <style>
           body,html{margin:0;padding:0}.c-loader *{box-sizing:border-box;}.c-loader{position:fixed;top:0;left:0;z-index:1049;display:flex;align-items:center;justify-content:center;opacity:1;background: #000000;width:100vw;height:100vh;max-height:100%;max-width:100%;overflow:hidden;transition:opacity .4s ease}  .c-loader__content{max-width:200px;width:100%;position:relative}  .c-loader__spinner{position:absolute;top:50%;left:50%;transform: translate(-50%,-60%);}
       
@@ -35,8 +35,8 @@
             .ctabtn {
                 background: rgb(255, 243, 143);
                 background: linear-gradient(180deg, rgba(255,243,143,1) 0%, rgba(167,131,52,1) 21%, rgba(118,94,46,1) 62%, rgba(255,243,131,1) 95%, rgba(130,94,52,1) 100%);
-                font-size: 1.6rem;
-                font-weight: bold;
+                font-size: 1.6rem !important;
+                font-weight: bold !important;
                 border-color: #825e34;
                 margin-top: 30px;
                 margin-left: auto;
@@ -46,7 +46,7 @@
                 padding: 10px;
                 border-radius: 16px;
                 cursor: pointer;
-                color: black;
+                color: black !important;
             }
         </style>
     </head>
@@ -221,7 +221,9 @@
             <picture
                 class="welcome__footer-logo relative mx-auto w-20 lg:w-36 --fade" data-bind="logo">
                 <!-- footer logo -->
-                <img src="https://ca-assets.cerebrospace.net/welcome/dist/img/logos/luckycreek.png" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
+                <source srcset="assets\images\luckycreek.webp" media="(min-width: 768px)">
+                <source srcset="assets\images\luckycreek_M.webp" media="(max-width: 768px)"> 
+                <img src="assets\images\luckycreek_M.webp" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
             <figure
                 class="welcome__footer-providers relative w-full flex justify-between --fade" data-bind="providers">
                 <!-- provider logos -->
