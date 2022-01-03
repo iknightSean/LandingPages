@@ -56,10 +56,10 @@
     </head>
     <body class="welcome" style="background:#000000;" data-brand="LuckyCreek" data-locale="en-US">
         <header class="welcome__header fixed w-full -z-overlay-back">
-            <picture
-                class="welcome__header-logo absolute w-40 lg:w-72 -center-absolute-x --fade" data-bind="logo">
-                <!-- header logo -->
-                <img src="https://ca-assets.cerebrospace.net/welcome/dist/img/logos/luckycreek.png" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
+            <picture class="welcome__header-logo absolute w-40 lg:w-72 -center-absolute-x --fade" data-bind="logo">
+                <source srcset="assets\images\luckycreek.webp" media="(min-width: 768px)">
+                <source srcset="assets\images\luckycreek_M.webp" media="(max-width: 768px)"> 
+                <img src="assets\images\luckycreek_M.webp" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
         </header>
 
         <main class="welcome__offer" data-bind="offer_background" id="welcome_offer" style="background-image: url(&quot;assets/images/e2e7d2c4-6171-11ec-ba68-62898edc0f74.webp&quot;); background-position: center center; background-size: cover; background-repeat: no-repeat;">
@@ -99,9 +99,9 @@
 
                     </section>
                 </div>
-                <picture
-                    class="welcome__offer-image -z-middle-back hidden absolute md:block bottom-0 --fade" data-bind="offer_image">
-                    <!-- welcome offer image -->
+                <picture class="welcome__offer-image -z-middle-back hidden absolute md:block bottom-0 --fade" data-bind="offer_image">
+                    <source srcset="assets/images/e53fc978-6171-11ec-952e-62898edc0f74.webp" media="(min-width: 768px)" />
+                    <source srcset="assets/images/placeholder_M.webp" media="(max-width: 768px)" /> 
                     <img src="assets/images/e53fc978-6171-11ec-952e-62898edc0f74.webp" alt="Lucky Creek: 250% Match Bonus "></picture>
             </div>
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
@@ -189,10 +189,11 @@
         </section>
 
         <section class="welcome__about container mx-auto max-w-6xl">
-            <picture
-                class="welcome__about-trust-factor-image --fade" data-bind="trust_factor_image">
+            <picture class="welcome__about-trust-factor-image --fade" data-bind="trust_factor_image">
                 <!-- trust factor image -->
-                <img src="https://assets.luckycreek.com/cms/111a3910-8d95-11e9-a700-3ebc7820c324.png" loading="lazy" alt="Lucky Creek Trust Factor"></picture>
+              <source srcset="assets/images/111a3910-8d95-11e9-a700-3ebc7820c324.webp" media="(min-width: 768px)">
+              <source srcset="assets/images/111a3910-8d95-11e9-a700-3ebc7820c324_M.webp" media="(max-width: 768px)">  
+              <img src="assets/images/111a3910-8d95-11e9-a700-3ebc7820c324_M.webp" loading="lazy" alt="Lucky Creek Trust Factor"></picture>
             <article class="welcome__about-content p-4 --fade" data-bind="about_content">
                 <h2>Lucky Creek Online Casino</h2>
                 <p>Lucky Creek is an online casino like no other. The absolute best in the West! Where you can gunsling offers on the rowdiest online video slots and table games. Yessiree, Lucky Creek is a state-of-the-art gambling saloon for every cowboy and cowgirl out there. For years, our Lucky Creek was a secret of &nbsp;the ‘Colorful Colorado’, until… we saw folks rushin’ from Pike’s Peak to our corner of the world to grab gold on our loose games, leaving our patrons laughing all the way to the bank!<br><br>Lucky Creek Casino is the perfect blend of magical fun, with the excitement of the ol’ west mixed with the thrill of modern day wins on over 200 expertly designed games packed with a large range of matches and benefits. Our premier casino also forms part of a reputable group which is respected and &nbsp;trusted by players the world over.<br><br><strong>Our Play it Safe Credentials include:</strong>
