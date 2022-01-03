@@ -1,0 +1,80 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+    -moz-tab-size: 4;
+    tab-size: 4;
+}
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    line-height: 1.5;
+    font-family: inherit;
+    line-height: inherit;
+}
+*,:after,:before {
+    border: 0 solid;
+    box-sizing: border-box;
+    --tw-border-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+    --tw-shadow: 0 0 #0000;
+    --tw-ring-inset: var(--tw-empty, );
+    --tw-ring-offset-width: 0;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+:root {
+    --header-height: 1.5rem;
+    --body-padding-top: 7rem;
+    --welcome-offer-height: 80vh;
+    --color-dark: #050918;
+    --color-dark-transparent: rgba(5, 9, 24, 0.45882);
+    --color-dark-transparent-light: rgba(5, 9, 24, 0.2);
+    --color-light: #f3f5fd;
+    --brand-color: #1a1823;
+    --body-bg-color: #1a1823;
+    --accent-color: #deb04a;
+    --hover-accent-color: #f4d85e;
+    --font-family: "Roboto Condensed", sans-serif;
+    --font-size-mobile: 20px !important;
+    --font-size-tablet: 20px !important;
+    --font-size-desktop: 16px !important
+}
+@media screen and(prefers-reduced-motion:no-preference) {
+    html {
+        scroll-behavior: smooth
+    }
+}
+body{
+    font-size: 20px !important;
+    font-size: var(--font-size-mobile) !important;
+    padding-bottom: 20px;
+    background: #1a1823 !important;
+    background: var(--body-bg-color) !important;
+    margin: 0;
+    min-height: 100vh;
+    --reg-font-size-mobile: 16px !important;
+    --reg-font-size-desktop: 16px !important;
+    --reg-input-min-height-mobile: 40px !important;
+    --reg-input-min-height-desktop: 40px !important;
+    --reg-iti-padding-left-mobile: 85px !important;
+    --reg-iti-padding-left-desktop: 85px !important;
+    --reg-font-size-terms-mobile: 15px !important;
+    --reg-font-size-terms-desktop: 15px !important;
+    --reg-line-height-terms-mobile: 20px !important;
+    --reg-line-height-terms-desktop: 20px !important;
+    background: #000 !important;
+}
+@media(min-width:768px) {
+    body{
+        font-size: 20px !important;
+        font-size: var(--font-size-tablet) !important;
+    }
+}
+@media(min-width:1024px) {
+    body{
+        font-size: 16px !important;
+        font-size: var(--font-size-desktop) !important;
+    }
+}
