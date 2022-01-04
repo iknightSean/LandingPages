@@ -8,7 +8,7 @@
           body,html{margin:0;padding:0}.c-loader *{box-sizing:border-box;}.c-loader{position:fixed;top:0;left:0;z-index:1049;display:flex;align-items:center;justify-content:center;opacity:1;background: #000000;width:100vw;height:100vh;max-height:100%;max-width:100%;overflow:hidden;transition:opacity .4s ease}  .c-loader__content{max-width:200px;width:100%;position:relative}  .c-loader__spinner{position:absolute;top:50%;left:50%;transform: translate(-50%,-60%);}
       
           .modalbg{
-            background-color: #1c0901;
+            background-color: #1c0901 !important;
             padding: 15px;
           }
       
@@ -106,7 +106,9 @@
                 <picture
                     class="welcome__offer-image -z-middle-back hidden absolute md:block bottom-0 --fade" data-bind="offer_image">
                     <!-- welcome offer image -->
-                    <img src="assets/images/e53fc978-6171-11ec-952e-62898edc0f74.webp" alt="Lucky Creek: 250% Match Bonus "></picture>
+                    <source srcset="assets/images/e53fc978-6171-11ec-952e-62898edc0f74.webp" media="(min-width: 768px)">
+                    <source srcset="assets/images/placeholder_M.webp" media="(max-width: 768px)"> 
+                    <img src="assets/images/placeholder_M.webp" alt="Lucky Creek: 250% Match Bonus "></picture>
             </div>
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
               <div class="modal-dialog modal-dialog-centered" role="document">
@@ -228,10 +230,11 @@
         </section>
 
         <footer class="welcome__footer container mx-auto max-w-6xl">
-            <picture
-                class="welcome__footer-logo relative mx-auto w-20 lg:w-36 --fade" data-bind="logo">
+            <picture class="welcome__footer-logo relative mx-auto w-20 lg:w-36 --fade" data-bind="logo">
                 <!-- footer logo -->
-                <img src="https://ca-assets.cerebrospace.net/welcome/dist/img/logos/luckycreek.png" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
+                <source srcset="assets\images\luckycreek.webp" media="(min-width: 768px)">
+                <source srcset="assets\images\luckycreek_M.webp" media="(max-width: 768px)"> 
+                <img src="assets\images\luckycreek_M.webp" loading="lazy" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
             <figure
                 class="welcome__footer-providers relative w-full flex justify-between --fade" data-bind="providers">
                 <!-- provider logos -->
@@ -249,7 +252,7 @@
         </footer>
         <!-- form JavaScript -->
 
-        <script async src="https://ca-assets.cerebrospace.net/reg/dist-1/reg.js"></script>
+        <script src="assets/js/reg.js"></script>
 
         <script>
             initArisRegistration({
