@@ -24,6 +24,61 @@ body {
     --tw-ring-offset-shadow: 0 0 #0000;
     --tw-ring-shadow: 0 0 #0000;
 }
+.welcome__header {
+    background: linear-gradient(180deg,#1a1823,transparent)!important;
+    background: linear-gradient(180deg,var(--brand-color),transparent)!important;
+    height: 5rem
+}
+
+.welcome__offer-content {
+    margin-top: 2rem
+}
+
+.welcome__offer-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem
+}
+
+.welcome__offer-content h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: .5rem
+}
+
+.welcome__offer-content h3 {
+    font-size: 1rem;
+    margin: 1rem 1rem 0
+}
+
+@media(min-width: 768px) {
+    .welcome__offer-content {
+        margin-top:0
+    }
+}
+
+@media(min-width: 1024px) {
+    .welcome__offer-content h1 {
+        font-size:3.5rem
+    }
+
+    .welcome__offer-content h2 {
+        font-size: 2.25rem
+    }
+
+    .welcome__offer-content h3 {
+        font-size: 1.5rem
+    }
+}
+
+.welcome__offer-reg-wrapper {
+    background: linear-gradient(33deg,rgba(0,0,0,.56471),var(--brand-color-transparent-dark));
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 606px;
+    position: relative
+}
 :root {
     --header-height: 1.5rem;
     --body-padding-top: 7rem;
