@@ -3,8 +3,7 @@
         <meta charset="UTF-8">
         <title>Welcome to Lucky Creek Online Casino</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/critical.css">
         <style>
           body,html{margin:0;padding:0}.c-loader *{box-sizing:border-box;}.c-loader{position:fixed;top:0;left:0;z-index:1049;display:flex;align-items:center;justify-content:center;opacity:1;background: #000000;width:100vw;height:100vh;max-height:100%;max-width:100%;overflow:hidden;transition:opacity .4s ease}  .c-loader__content{max-width:200px;width:100%;position:relative}  .c-loader__spinner{position:absolute;top:50%;left:50%;transform: translate(-50%,-60%);}
       
@@ -35,9 +34,9 @@
             .ctabtn {
                 background: rgb(255, 243, 143);
                 background: linear-gradient(180deg, rgba(255,243,143,1) 0%, rgba(167,131,52,1) 21%, rgba(118,94,46,1) 62%, rgba(255,243,131,1) 95%, rgba(130,94,52,1) 100%);
-                font-size: 1.6rem;
-                font-weight: bold;
-                border-color: #825e34;
+                font-size: 1.6rem !important;
+                font-weight: bold !important;
+                border-color: #825e34 !important;
                 margin-top: 30px;
                 margin-left: auto;
                 margin-right: auto;
@@ -46,20 +45,16 @@
                 padding: 10px;
                 border-radius: 16px;
                 cursor: pointer;
-                color: black;
+                color: black !important;
             }
         </style>
-        <link rel="stylesheet" href="https://ca-assets.cerebrospace.net/welcome/dist/css/main.css">
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
-        <link rel="stylesheet" href="https://ca-assets.cerebrospace.net/reg/dist-1/default.css">
     </head>
     <body class="welcome" style="background:#000000;" data-brand="LuckyCreek" data-locale="en-US">
         <header class="welcome__header fixed w-full -z-overlay-back">
-            <picture
-                class="welcome__header-logo absolute w-40 lg:w-72 -center-absolute-x --fade" data-bind="logo">
-                <!-- header logo -->
-                <img src="https://ca-assets.cerebrospace.net/welcome/dist/img/logos/luckycreek.png" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
+            <picture class="welcome__header-logo absolute w-40 lg:w-72 -center-absolute-x --fade" data-bind="logo">
+                <source srcset="assets\images\luckycreek.webp" media="(min-width: 768px)">
+                <source srcset="assets\images\luckycreek_M.webp" media="(max-width: 768px)"> 
+                <img src="assets\images\luckycreek_M.webp" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
         </header>
 
         <main class="welcome__offer" data-bind="offer_background" id="welcome_offer" style="background-image: url(&quot;assets/images/e2e7d2c4-6171-11ec-ba68-62898edc0f74.webp&quot;); background-position: center center; background-size: cover; background-repeat: no-repeat;">
@@ -80,20 +75,29 @@
                         <div class="row" style="padding: 0% 6% 0 6%;text-align: center;margin-top: 50px;">
                             <div class="">
                                 <a data-toggle="modal" data-target="#exampleModal" onclick="setCookie('aff_offer', '{%22id%22:%22e077cb72-2cc7-11ec-8a3f-62898edc0f74%22%2C%22offer_id%22:%22clxcadlc%22%2C%22top_offer_text%22:%22250%25%20Match%20Bonus%22%2C%22top_offer_code%22:%22up%20to%20C$1000%20on%20your%201st%20Deposit%20using%20code:%20DBLUP250%22%2C%22second_offer_text%22:%22Then%20get%20a%20400%25%20Match%20Bonus%22%2C%22second_offer_code%22:%22up%20to%20C$1200%20on%20your%202nd%20Deposit%20using%20code:%20DBLUP400%22%2C%22background_image%22:%22https://assets.luckycreek.com/affiliate_offers/e0b97306-2cc7-11ec-8b73-62898edc0f74.jpg%22%2C%22left_image%22:%22https://assets.luckycreek.com/affiliate_offers/e28a0b0a-2cc7-11ec-be78-62898edc0f74.png%22%2C%22affiliate_logo%22:null%2C%22days_valid_after_reg%22:14%2C%22created_at%22:%222021-10-14%2010:22%22%2C%22updated_at%22:%222021-10-14%2010:30%22}', 30);">
-                                    <img src="https://d3sre66aqsdpjf.cloudfront.net/affliates/2021_09_20_LC_iDrive_Prelander_Step1.png" class="img-fluid" alt="Responsive image">
-                                </a>
+                                    <picture>
+                                        <source srcset="assets/images/2021_09_20_LC_iDrive_Prelander_Step1.png" media="(min-width: 768px)">
+                                        <source srcset="assets/images/2021_09_20_LC_iDrive_Prelander_Step1_M.webp" media="(max-width: 768px)"> 
+                                        <img src="assets/images/2021_09_20_LC_iDrive_Prelander_Step1_M.webp" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
+                                    </a>
                             </div>
 
                             <div class="">
                                 <a data-toggle="modal" data-target="#exampleModal" onclick="setCookie('aff_offer', '{%22id%22:%22e077cb72-2cc7-11ec-8a3f-62898edc0f74%22%2C%22offer_id%22:%22clxcadlc%22%2C%22top_offer_text%22:%22250%25%20Match%20Bonus%22%2C%22top_offer_code%22:%22up%20to%20C$1000%20on%20your%201st%20Deposit%20using%20code:%20DBLUP250%22%2C%22second_offer_text%22:%22Then%20get%20a%20400%25%20Match%20Bonus%22%2C%22second_offer_code%22:%22up%20to%20C$1200%20on%20your%202nd%20Deposit%20using%20code:%20DBLUP400%22%2C%22background_image%22:%22https://assets.luckycreek.com/affiliate_offers/e0b97306-2cc7-11ec-8b73-62898edc0f74.jpg%22%2C%22left_image%22:%22https://assets.luckycreek.com/affiliate_offers/e28a0b0a-2cc7-11ec-be78-62898edc0f74.png%22%2C%22affiliate_logo%22:null%2C%22days_valid_after_reg%22:14%2C%22created_at%22:%222021-10-14%2010:22%22%2C%22updated_at%22:%222021-10-14%2010:30%22}', 30);">
-                                    <img src="https://d3sre66aqsdpjf.cloudfront.net/affliates/2021_09_20_LC_iDrive_Prelander_Step2.png" class="img-fluid" alt="Responsive image">
-                                </a>
+                                    <picture>
+                                        <source srcset="assets/images/2021_09_20_LC_iDrive_Prelander_Step2.png" media="(min-width: 768px)">
+                                        <source srcset="assets/images/2021_09_20_LC_iDrive_Prelander_Step2_M.webp" media="(max-width: 768px)"> 
+                                        <img src="assets/images/2021_09_20_LC_iDrive_Prelander_Step2_M.webp" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
+                                    </a>
                             </div>
 
                             <div class="">
                                 <a data-toggle="modal" data-target="#exampleModal" onclick="setCookie('aff_offer', '{%22id%22:%22e077cb72-2cc7-11ec-8a3f-62898edc0f74%22%2C%22offer_id%22:%22clxcadlc%22%2C%22top_offer_text%22:%22250%25%20Match%20Bonus%22%2C%22top_offer_code%22:%22up%20to%20C$1000%20on%20your%201st%20Deposit%20using%20code:%20DBLUP250%22%2C%22second_offer_text%22:%22Then%20get%20a%20400%25%20Match%20Bonus%22%2C%22second_offer_code%22:%22up%20to%20C$1200%20on%20your%202nd%20Deposit%20using%20code:%20DBLUP400%22%2C%22background_image%22:%22https://assets.luckycreek.com/affiliate_offers/e0b97306-2cc7-11ec-8b73-62898edc0f74.jpg%22%2C%22left_image%22:%22https://assets.luckycreek.com/affiliate_offers/e28a0b0a-2cc7-11ec-be78-62898edc0f74.png%22%2C%22affiliate_logo%22:null%2C%22days_valid_after_reg%22:14%2C%22created_at%22:%222021-10-14%2010:22%22%2C%22updated_at%22:%222021-10-14%2010:30%22}', 30);">
-                                    <img src="https://d3sre66aqsdpjf.cloudfront.net/affliates/2021_09_20_LC_iDrive_Prelander_Step3.png" class="img-fluid" alt="Responsive image">
-                                </a>
+                                    <picture>
+                                        <source srcset="assets/images/2021_09_20_LC_iDrive_Prelander_Step3.png" media="(min-width: 768px)">
+                                        <source srcset="assets/images/2021_09_20_LC_iDrive_Prelander_Step3_M.webp" media="(max-width: 768px)"> 
+                                        <img src="assets/images/2021_09_20_LC_iDrive_Prelander_Step3_M.webp" alt="Lucky Creek Logo" class="relative mx-auto"></picture>
+                                    </a>
                             </div>
                         </div>
 
@@ -192,8 +196,11 @@
             <picture
                 class="welcome__about-trust-factor-image --fade" data-bind="trust_factor_image">
                 <!-- trust factor image -->
-                <img src="https://assets.luckycreek.com/cms/111a3910-8d95-11e9-a700-3ebc7820c324.png" loading="lazy" alt="Lucky Creek Trust Factor"></picture>
-            <article class="welcome__about-content p-4 --fade" data-bind="about_content">
+                <picture>
+                    <source srcset="assets/images/111a3910-8d95-11e9-a700-3ebc7820c324.webp" media="(min-width: 768px)">
+                    <source srcset="assets/images/111a3910-8d95-11e9-a700-3ebc7820c324_M.webp" media="(max-width: 768px)"> 
+                    <img src="assets/images/111a3910-8d95-11e9-a700-3ebc7820c324_M.webp" loading="lazy" alt="Lucky Creek Trust Factor"></picture>      
+                <article class="welcome__about-content p-4 --fade" data-bind="about_content">
                 <h2>Lucky Creek Online Casino</h2>
                 <p>Lucky Creek is an online casino like no other. The absolute best in the West! Where you can gunsling offers on the rowdiest online video slots and table games. Yessiree, Lucky Creek is a state-of-the-art gambling saloon for every cowboy and cowgirl out there. For years, our Lucky Creek was a secret of &nbsp;the ‘Colorful Colorado’, until… we saw folks rushin’ from Pike’s Peak to our corner of the world to grab gold on our loose games, leaving our patrons laughing all the way to the bank!<br><br>Lucky Creek Casino is the perfect blend of magical fun, with the excitement of the ol’ west mixed with the thrill of modern day wins on over 200 expertly designed games packed with a large range of matches and benefits. Our premier casino also forms part of a reputable group which is respected and &nbsp;trusted by players the world over.<br><br><strong>Our Play it Safe Credentials include:</strong>
                 </p>
@@ -268,5 +275,13 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://ca-assets.cerebrospace.net/welcome/dist/css/main.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+        <link rel="stylesheet" href="https://ca-assets.cerebrospace.net/reg/dist-1/default.css">
+    
     </body>
 </html>
