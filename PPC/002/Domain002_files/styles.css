@@ -1,3 +1,4 @@
+/*! CSS Used from: https://www.gstatic.com/_/atari/_/ss/k=atari.vw._FE_lIFjtDI.L.W.O/d=1/rs=AGEqA5lVO8cakZh9kD-mBg2UIOxsr4mLcA */
 header,section{display:block;}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
 body{margin:0;}
@@ -94,8 +95,6 @@ html{font-size:16px;}
 .mGzaTb{padding:8px;}
 .qUO6Ue .Kzv0Me .tyJCtd:not(.lp0xld){padding-right:48px;}
 .yYI8W .mGzaTb{padding:14px 8px;}
-.t3iYD{overflow:hidden;}
-.CENy8b{display:block;width:100%;}
 .qUO6Ue .oKdM2c:first-child{cursor:pointer;}
 .qUO6Ue .oKdM2c:first-child:not(.gqUFjc){border-bottom:1px solid #5f6368;}
 .vhaaFf .oKdM2c:first-child{display:block;}
@@ -107,7 +106,7 @@ html{font-size:16px;}
 .GNzUNc{white-space:pre-wrap;word-wrap:break-word;}
 .G9Qloe .tyJCtd .aP9Z7e{display:block;margin-bottom:0;margin-top:calc(-1*56px);padding-bottom:56px;visibility:hidden;pointer-events:none;}
 .tyJCtd .aP9Z7e{display:block;margin-bottom:0;}
-.G9Qloe section:not(.LB7kq) .tyJCtd .duRjpb,.G9Qloe section:not(.LB7kq) .tyJCtd .JYVBee{pointer-events:none;}
+.G9Qloe section:not(.LB7kq) .tyJCtd .duRjpb,.G9Qloe section:not(.LB7kq) .tyJCtd .JYVBee,.G9Qloe section:not(.LB7kq) .tyJCtd .OmQG5e{pointer-events:none;}
 @media only screen and (max-width:767px){
 .OjCsFc{padding-top:1.5rem;}
 .wHaque{padding-bottom:1.5rem;}
@@ -287,26 +286,33 @@ html{font-size:16px;}
 .NsaAfc p{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .purZT-AhqUyc-II5mzb.JNdkSc .QaN0Zc{padding-top:7.5%;}
 @media only screen{
-.purZT-AhqUyc-II5mzb{width:100%;}
+.purZT-AhqUyc-ibL1re{width:50%;}
+.purZT-AhqUyc-ibL1re.JNdkSc .JNdkSc-SmKAyb{padding-left:7.5%;padding-right:7.5%;}
+.purZT-AhqUyc-c5RTEf{width:75%;}
+.purZT-AhqUyc-c5RTEf.JNdkSc .JNdkSc-SmKAyb{padding-left:5%;padding-right:5%;}
+.purZT-AhqUyc-c5RTEf .purZT-AhqUyc-c5RTEf,.purZT-AhqUyc-II5mzb{width:100%;}
 .purZT-AhqUyc-II5mzb.JNdkSc .JNdkSc-SmKAyb{padding-left:3.75%;padding-right:3.75%;}
 }
 .pSzOP-AhqUyc-qWD73c.JNdkSc .QaN0Zc{padding-top:5%;}
 @media only screen and (min-width:480px){
-.pSzOP-AhqUyc-wNfPc{width:83.3333333333%;}
-.pSzOP-AhqUyc-wNfPc.JNdkSc .JNdkSc-SmKAyb{padding-left:3%;padding-right:3%;}
-.pSzOP-AhqUyc-wNfPc .pSzOP-AhqUyc-wNfPc,.pSzOP-AhqUyc-qWD73c{width:100%;}
+.pSzOP-AhqUyc-ibL1re{width:33.3333333333%;}
+.pSzOP-AhqUyc-ibL1re.JNdkSc .JNdkSc-SmKAyb{padding-left:7.5%;padding-right:7.5%;}
+.pSzOP-AhqUyc-c5RTEf{width:50%;}
+.pSzOP-AhqUyc-c5RTEf.JNdkSc .JNdkSc-SmKAyb{padding-left:5%;padding-right:5%;}
+.pSzOP-AhqUyc-c5RTEf .pSzOP-AhqUyc-c5RTEf{width:100%;}
+.pSzOP-AhqUyc-qWD73c{width:100%;}
 .pSzOP-AhqUyc-qWD73c.JNdkSc .JNdkSc-SmKAyb{padding-left:2.5%;padding-right:2.5%;}
 }
 .hJDwNd-AhqUyc-OiUrBf.JNdkSc .QaN0Zc{padding-top:3.75%;}
 @media only screen and (min-width:768px){
+.hJDwNd-AhqUyc-R6PoUb{width:8.3333333333%;}
+.hJDwNd-AhqUyc-R6PoUb.JNdkSc .JNdkSc-SmKAyb{padding-left:15%;padding-right:15%;}
 .hJDwNd-AhqUyc-ibL1re{width:16.6666666667%;}
 .hJDwNd-AhqUyc-ibL1re.JNdkSc .JNdkSc-SmKAyb{padding-left:7.5%;padding-right:7.5%;}
-.hJDwNd-AhqUyc-wNfPc{width:41.6666666667%;}
-.hJDwNd-AhqUyc-wNfPc.JNdkSc .JNdkSc-SmKAyb{padding-left:3%;padding-right:3%;}
-.hJDwNd-AhqUyc-wNfPc .hJDwNd-AhqUyc-wNfPc{width:100%;}
-.hJDwNd-AhqUyc-OwsYgb{width:58.3333333333%;}
-.hJDwNd-AhqUyc-OwsYgb.JNdkSc .JNdkSc-SmKAyb{padding-left:2.1428571429%;padding-right:2.1428571429%;}
-.hJDwNd-AhqUyc-OwsYgb .hJDwNd-AhqUyc-OwsYgb{width:100%;}
+.hJDwNd-AhqUyc-ibL1re .hJDwNd-AhqUyc-ibL1re{width:100%;}
+.hJDwNd-AhqUyc-c5RTEf{width:25%;}
+.hJDwNd-AhqUyc-c5RTEf.JNdkSc .JNdkSc-SmKAyb{padding-left:5%;padding-right:5%;}
+.hJDwNd-AhqUyc-c5RTEf .hJDwNd-AhqUyc-c5RTEf{width:100%;}
 .hJDwNd-AhqUyc-OiUrBf{width:66.6666666667%;}
 .hJDwNd-AhqUyc-OiUrBf.JNdkSc .JNdkSc-SmKAyb{padding-left:1.875%;padding-right:1.875%;}
 .hJDwNd-AhqUyc-OiUrBf .hJDwNd-AhqUyc-OiUrBf{width:100%;}
@@ -327,6 +333,7 @@ html{font-size:16px;}
 .LS81yb,.oKdM2c{max-width:544px;}
 .JNdkSc-SmKAyb{padding-left:2.5%;padding-right:2.5%;}
 }
+.Y8Sxfc{background-color:rgba(0,0,0,.03);height:100%;left:0;position:absolute;outline:2px dashed rgba(0,0,0,.10);overflow:hidden;top:0;width:100%;}
 .bKy5e{position:absolute;top:0;left:0;right:0;display:-webkit-box;display:-webkit-flex;display:flex;z-index:90;width:100%;pointer-events:none;}
 .rrJNTc{margin:5px auto;display:-webkit-box;display:-webkit-flex;display:flex;border-radius:32px;background-color:rgba(32,33,36,.75);padding:0 8px;overflow:hidden;height:64px;width:500px;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;opacity:0;}
 .WsSUlf{height:48px;margin-top:0;margin-bottom:0;border-radius:24px;position:relative;margin-top:8px;margin-bottom:8px;}
@@ -338,12 +345,14 @@ html{font-size:16px;}
 .MAXCNe{display:none;}
 }
 .EI709d{color:#616161;}
+.J1oeHf{width:100%;}
 input{font-family:inherit;}
 /*! CSS Used from: Embedded */
 .M63kCb{background-color:rgba(255,255,255,1);}
 .OUGEr{color:rgba(33,33,33,1);}
 .duRjpb .OUGEr{color:rgba(61,16,21,1);}
 .JYVBee .OUGEr{color:rgba(61,16,21,1);}
+.OmQG5e .OUGEr{color:rgba(33,33,33,1);}
 .O13XJf{height:340px;padding-bottom:60px;padding-top:60px;}
 .O13XJf .IFuOkc{background-color:rgba(61,16,21,1);background-image:url(https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}
 .O13XJf .IFuOkc:before{background-color:rgba(33,33,33,1);opacity:0.4;display:block;}
@@ -358,6 +367,8 @@ input{font-family:inherit;}
 .Ap4VC{margin-bottom:-30px;}
 .JYVBee{color:rgba(61,16,21,1);font-family:Lato, sans-serif;font-size:19pt;font-weight:400;line-height:1.4;margin-top:20px;}
 .CobnVe{margin-bottom:-20px;}
+.OmQG5e{color:rgba(33,33,33,1);font-family:Lato, sans-serif;font-size:15pt;font-style:normal;font-weight:400;line-height:1.25;margin-top:16px;}
+.GV3q8e{margin-bottom:-16px;}
 .LB7kq .duRjpb{font-size:64pt;letter-spacing:2px;line-height:1;margin-top:40px;}
 @media only screen and (max-width: 479px){
 .LB7kq .duRjpb{font-size:40pt;}
@@ -371,6 +382,13 @@ input{font-family:inherit;}
 }
 @media only screen and (max-width: 479px){
 .O13XJf{height:250px;padding-bottom:30px;padding-top:30px;}
+}
+.SBrW1{height:520px;}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.SBrW1{height:520px;}
+}
+@media only screen and (max-width: 479px){
+.SBrW1{height:400px;}
 }
 .TlfmSc{font-family:Lato, sans-serif;font-size:15pt;font-weight:300;line-height:1.333;}
 .zDUgLc{opacity:1;}
@@ -393,6 +411,12 @@ input{font-family:inherit;}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
 .JYVBee{font-size:17pt;}
+}
+@media only screen and (max-width: 479px){
+.OmQG5e{font-size:13pt;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.OmQG5e{font-size:14pt;}
 }
 @media only screen and (max-width: 479px){
 .TlfmSc{font-size:13pt;}
