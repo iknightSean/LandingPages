@@ -1,10 +1,11 @@
-header,section{display:block;}
+/*! CSS Used from: https://www.gstatic.com/_/atari/_/ss/k=atari.vw.0Ao8mKygS78.L.W.O/d=1/rs=AGEqA5kNP1SMbtZxVIvsInNj6BBhkNwSvw */
+footer,header,section{display:block;}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
 body{margin:0;}
 a:focus{outline:thin dotted;}
 a:active,a:hover{outline:0;}
 h1{font-size:2em;margin:.67em 0;}
-img{border:0;}
+strong{font-weight:bold;}
 svg:not(:root){overflow:hidden;}
 button,input{font-family:inherit;font-size:100%;margin:0;}
 button,input{line-height:normal;}
@@ -86,7 +87,7 @@ html{font-size:16px;}
 .XuQwKc{-webkit-align-items:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:flex;height:100%;-webkit-justify-content:center;justify-content:center;position:relative;width:100%;}
 .GmuOkf{display:-webkit-box;display:-webkit-flex;display:flex;position:relative;}
 .AKpWA{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;height:100vh;}
-.RCETm{-webkit-flex:0 0 auto;flex:0 0 auto;outline:none;}
+footer,.RCETm{-webkit-flex:0 0 auto;flex:0 0 auto;outline:none;}
 .Xpil1b{-webkit-flex:1 0 auto;flex:1 0 auto;}
 .VICjCf{margin-left:auto;margin-right:auto;}
 .Nu95r{bottom:0;height:100%;left:0;overflow:hidden;position:absolute;right:0;top:0;width:100%;}
@@ -105,7 +106,7 @@ html{font-size:16px;}
 .GNzUNc{white-space:pre-wrap;word-wrap:break-word;}
 .G9Qloe .tyJCtd .aP9Z7e{display:block;margin-bottom:0;margin-top:calc(-1*56px);padding-bottom:56px;visibility:hidden;pointer-events:none;}
 .tyJCtd .aP9Z7e{display:block;margin-bottom:0;}
-.G9Qloe section:not(.LB7kq) .tyJCtd .duRjpb,.G9Qloe section:not(.LB7kq) .tyJCtd .JYVBee,.G9Qloe section:not(.LB7kq) .tyJCtd .OmQG5e{pointer-events:none;}
+.G9Qloe section:not(.LB7kq) .tyJCtd .JYVBee{pointer-events:none;}
 @media only screen and (max-width:767px){
 .OjCsFc{padding-top:1.5rem;}
 .wHaque{padding-bottom:1.5rem;}
@@ -114,6 +115,7 @@ html{font-size:16px;}
 .M63kCb{height:100vh;width:100vw;position:fixed;z-index:-10;}
 .LS81yb{outline:0;}
 ::-webkit-scrollbar-thumb{border:1px solid rgba(255,255,255,.4);}
+strong{-webkit-font-smoothing:antialiased;}
 .VLoccc{left:0;padding-left:36px;padding-right:8px;position:fixed;top:0;-webkit-transition:opacity 0.5s,padding-left .125s;transition:opacity 0.5s,padding-left .125s;white-space:nowrap;width:100%;z-index:20;}
 .GAuSPc{color:inherit;}
 .VLoccc.ELAV1d{padding-left:16px;padding-right:16px;}
@@ -122,10 +124,6 @@ html{font-size:16px;}
 .TlfmSc{display:table-cell;font-size:24px;height:56px;max-width:380px;text-overflow:ellipsis;vertical-align:middle;white-space:nowrap;}
 .TlfmSc .QTKDff{display:inline-block;line-height:1;max-width:380px;outline:none;overflow:hidden;padding:16px 12px;text-decoration:none;text-overflow:ellipsis;}
 .QTKDff{display:inline-block;vertical-align:middle;}
-.lzy1Td{display:inline-block;max-height:56px;max-width:225px;padding:8px 4px 8px 12px;vertical-align:middle;}
-@media only screen and (max-width:479px){
-.p46B7e.QTKDff{display:none;}
-}
 @media only screen and (min-width:768px){
 .VLoccc.K5Zlne{padding-left:16px;padding-right:16px;}
 }
@@ -214,6 +212,17 @@ html{font-size:16px;}
 .LjDxcd:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-Jh9lGc::before{-webkit-transition-duration:75ms;transition-duration:75ms;opacity:.12;opacity:var(--mdc-ripple-focus-opacity,0.12);}
 .LjDxcd:not(.VfPpkd-ksKsZd-mWPk3d) .VfPpkd-Jh9lGc::after{-webkit-transition:opacity 150ms linear;transition:opacity 150ms linear;}
 .LjDxcd:not(.VfPpkd-ksKsZd-mWPk3d):active .VfPpkd-Jh9lGc::after{-webkit-transition-duration:75ms;transition-duration:75ms;opacity:.12;opacity:var(--mdc-ripple-press-opacity,0.12);}
+.qfvgSe:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-J1Ukfc-LhBDec{pointer-events:none;border:2px solid #185abc;-webkit-border-radius:6px;border-radius:6px;-webkit-box-sizing:content-box;box-sizing:content-box;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);height:-webkit-calc(100% + 4px);height:calc(100% + 4px);width:-webkit-calc(100% + 4px);width:calc(100% + 4px);display:inline-block;position:absolute;}
+@media screen and (forced-colors:active){
+.qfvgSe:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-J1Ukfc-LhBDec{border-color:CanvasText;}
+}
+.qfvgSe:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-J1Ukfc-LhBDec::after{content:"";border:2px solid #e8f0fe;-webkit-border-radius:8px;border-radius:8px;display:block;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);height:-webkit-calc(100% + 4px);height:calc(100% + 4px);width:-webkit-calc(100% + 4px);width:calc(100% + 4px);}
+@media screen and (forced-colors:active){
+.qfvgSe:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-J1Ukfc-LhBDec::after{border-color:CanvasText;}
+}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){
+.qfvgSe:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-J1Ukfc-LhBDec{display:none;}
+}
 .JRtysb{-webkit-user-select:none;-webkit-transition:background .3s;transition:background .3s;border:0;-webkit-border-radius:50%;border-radius:50%;color:#444;cursor:pointer;display:inline-block;fill:#444;-webkit-flex-shrink:0;flex-shrink:0;height:48px;outline:none;overflow:hidden;position:relative;text-align:center;-webkit-tap-highlight-color:transparent;width:48px;z-index:0;}
 .NWlf3e{-webkit-transform:translate(-50%,-50%) scale(0);transform:translate(-50%,-50%) scale(0);-webkit-transition:opacity .2s ease;transition:opacity .2s ease;-webkit-background-size:cover;background-size:cover;left:0;opacity:0;pointer-events:none;position:absolute;top:0;visibility:hidden;}
 .MhXXcc{line-height:44px;position:relative;}
@@ -244,14 +253,6 @@ html{font-size:16px;}
 .I12f0b .snByac{-webkit-align-items:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-flex:1;box-flex:1;-webkit-flex-grow:1;flex-grow:1;-webkit-justify-content:center;justify-content:center;margin:0;}
 .FKF6mc,.FKF6mc:focus{display:block;outline:none;text-decoration:none;}
 .FKF6mc:visited{fill:inherit;stroke:inherit;}
-.XHsn7e{background-color:#000;border:none;-webkit-border-radius:50%;border-radius:50%;-webkit-box-sizing:content-box;box-sizing:content-box;-webkit-box-shadow:0px 6px 10px 0px rgba(0,0,0,.14),0px 1px 18px 0px rgba(0,0,0,.12),0px 3px 5px -1px rgba(0,0,0,.2);box-shadow:0px 6px 10px 0px rgba(0,0,0,.14),0px 1px 18px 0px rgba(0,0,0,.12),0px 3px 5px -1px rgba(0,0,0,.2);cursor:pointer;display:inline-block;fill:#fff;height:56px;outline:none;overflow:hidden;position:relative;text-align:center;width:56px;z-index:4000;}
-.HaXdpb{background:rgba(255,255,255,0.2);bottom:0;display:none;left:0;position:absolute;right:0;top:0;}
-.XHsn7e:hover{-webkit-box-shadow:0px 8px 10px 1px rgba(0,0,0,.14),0px 3px 14px 2px rgba(0,0,0,.12),0px 5px 5px -3px rgba(0,0,0,.2);box-shadow:0px 8px 10px 1px rgba(0,0,0,.14),0px 3px 14px 2px rgba(0,0,0,.12),0px 5px 5px -3px rgba(0,0,0,.2);}
-.XHsn7e:hover .HaXdpb{display:block;}
-.XHsn7e:focus{-webkit-box-shadow:0px 8px 10px 1px rgba(0,0,0,.14),0px 3px 14px 2px rgba(0,0,0,.12),0px 5px 5px -3px rgba(0,0,0,.2);box-shadow:0px 8px 10px 1px rgba(0,0,0,.14),0px 3px 14px 2px rgba(0,0,0,.12),0px 5px 5px -3px rgba(0,0,0,.2);}
-.XHsn7e:focus .HaXdpb{display:block;}
-.Ip8zfc{display:inline-block;height:24px;position:absolute;top:16px;left:16px;width:24px;-webkit-transform:rotate(0);transform:rotate(0);-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
-.HRp7vf{-webkit-transform:translate(-50%,-50%) scale(0);transform:translate(-50%,-50%) scale(0);-webkit-transition:opacity .2s ease,visibility 0s ease .2s,transform 0s ease .2s;transition:opacity .2s ease,visibility 0s ease .2s,transform 0s ease .2s;-webkit-transition:opacity .2s ease,visibility 0s ease .2s,-webkit-transform 0s ease .2s;transition:opacity .2s ease,visibility 0s ease .2s,-webkit-transform 0s ease .2s;background-image:radial-gradient(circle farthest-side,rgba(204,204,204,0.251),rgba(204,204,204,0.251) 80%,rgba(204,204,204,0) 100%);-webkit-background-size:cover;background-size:cover;left:0;opacity:0;pointer-events:none;position:absolute;top:0;visibility:hidden;}
 .IWfHH{position:absolute;top:-10000px;}
 .vu8Pwe{color:#616161;fill:currentColor;height:24px;width:24px;}
 .zHQkBf{width:100%;text-overflow:ellipsis;}
@@ -259,10 +260,6 @@ html{font-size:16px;}
 .Znu9nd.Znu9nd{-webkit-transform:translateY(-50%);transform:translateY(-50%);}
 .Znu9nd:hover .QdAdhf{opacity:.8;}
 .Znu9nd .TpQm9d{height:28px;width:28px;}
-.Pt0Du{bottom:16px;position:fixed;right:24px;z-index:30;}
-.mF4yBc{bottom:-80px;display:none;height:56px;position:absolute;right:0;-webkit-transition:bottom .35s cubic-bezier(.4,0,.2,1);transition:bottom .35s cubic-bezier(.4,0,.2,1);width:56px;}
-.mF4yBc.auswjd{display:block;}
-.LItWS-bMElCd{bottom:0;}
 .CjVfdc{display:inline-block;max-width:100%;pointer-events:all;position:relative;}
 .PPhIP{font-size:0;height:100%;line-height:1;pointer-events:none;position:absolute;z-index:10;}
 .PPhIP.rviiZ{right:-37px;padding-left:9px;}
@@ -271,47 +268,17 @@ html{font-size:16px;}
 .PPhIP{display:none;}
 }
 .p9b27{background-color:#eee;height:100vh;opacity:0;position:fixed;-webkit-transition:opacity .18s ease;transition:opacity .18s ease;width:100vw;z-index:-10;}
-.L7IXhc{-webkit-user-select:none;-webkit-transition:background .2s .1s;transition:background .2s .1s;-webkit-align-items:center;align-items:center;border:1px solid;border-color:inherit;-webkit-border-radius:4px;border-radius:4px;cursor:pointer;display:-webkit-box;display:-webkit-flex;display:flex;height:36px;overflow:hidden;position:relative;vertical-align:middle;-webkit-tap-highlight-color:transparent;width:100%;z-index:0;}
-.L7IXhc:hover{-webkit-box-shadow:0px 1px 2px 0px rgba(60,64,67,.30),0px 2px 6px 2px rgba(60,64,67,.15);box-shadow:0px 1px 2px 0px rgba(60,64,67,.30),0px 2px 6px 2px rgba(60,64,67,.15);}
-.wvnY3c{-webkit-transform:translate(-50%,-50%) scale(0);transform:translate(-50%,-50%) scale(0);-webkit-transition:opacity .2s ease,visibility 0s ease .2s,transform 0s ease .2s;transition:opacity .2s ease,visibility 0s ease .2s,transform 0s ease .2s;-webkit-transition:opacity .2s ease,visibility 0s ease .2s,-webkit-transform 0s ease .2s;transition:opacity .2s ease,visibility 0s ease .2s,-webkit-transform 0s ease .2s;-webkit-background-size:cover;background-size:cover;left:0;opacity:0;pointer-events:none;position:absolute;top:0;visibility:hidden;background-image:radial-gradient(circle farthest-side,rgba(0,0,0,.12),rgba(0,0,0,.12) 80%,rgba(0,0,0,0) 100%);}
-.L7IXhc a{width:100%;text-decoration:none;}
-.NsaAfc{text-align:center;width:100%;}
-@media only screen and (max-width:767px){
-.NsaAfc{padding-left:6px;padding-right:6px;}
-}
-@media only screen and (min-width:768px){
-.NsaAfc{padding-left:12px;padding-right:12px;}
-}
-.NsaAfc p{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-.purZT-AhqUyc-II5mzb.JNdkSc .QaN0Zc{padding-top:7.5%;}
 @media only screen{
-.purZT-AhqUyc-ibL1re{width:50%;}
-.purZT-AhqUyc-ibL1re.JNdkSc .JNdkSc-SmKAyb{padding-left:7.5%;padding-right:7.5%;}
-.purZT-AhqUyc-c5RTEf{width:75%;}
-.purZT-AhqUyc-c5RTEf.JNdkSc .JNdkSc-SmKAyb{padding-left:5%;padding-right:5%;}
-.purZT-AhqUyc-c5RTEf .purZT-AhqUyc-c5RTEf,.purZT-AhqUyc-II5mzb{width:100%;}
+.purZT-AhqUyc-II5mzb{width:100%;}
 .purZT-AhqUyc-II5mzb.JNdkSc .JNdkSc-SmKAyb{padding-left:3.75%;padding-right:3.75%;}
 }
-.pSzOP-AhqUyc-qWD73c.JNdkSc .QaN0Zc{padding-top:5%;}
 @media only screen and (min-width:480px){
-.pSzOP-AhqUyc-ibL1re{width:33.3333333333%;}
-.pSzOP-AhqUyc-ibL1re.JNdkSc .JNdkSc-SmKAyb{padding-left:7.5%;padding-right:7.5%;}
-.pSzOP-AhqUyc-c5RTEf{width:50%;}
-.pSzOP-AhqUyc-c5RTEf.JNdkSc .JNdkSc-SmKAyb{padding-left:5%;padding-right:5%;}
-.pSzOP-AhqUyc-c5RTEf .pSzOP-AhqUyc-c5RTEf{width:100%;}
 .pSzOP-AhqUyc-qWD73c{width:100%;}
 .pSzOP-AhqUyc-qWD73c.JNdkSc .JNdkSc-SmKAyb{padding-left:2.5%;padding-right:2.5%;}
 }
-.hJDwNd-AhqUyc-OiUrBf.JNdkSc .QaN0Zc{padding-top:3.75%;}
 @media only screen and (min-width:768px){
-.hJDwNd-AhqUyc-R6PoUb{width:8.3333333333%;}
-.hJDwNd-AhqUyc-R6PoUb.JNdkSc .JNdkSc-SmKAyb{padding-left:15%;padding-right:15%;}
 .hJDwNd-AhqUyc-ibL1re{width:16.6666666667%;}
 .hJDwNd-AhqUyc-ibL1re.JNdkSc .JNdkSc-SmKAyb{padding-left:7.5%;padding-right:7.5%;}
-.hJDwNd-AhqUyc-ibL1re .hJDwNd-AhqUyc-ibL1re{width:100%;}
-.hJDwNd-AhqUyc-c5RTEf{width:25%;}
-.hJDwNd-AhqUyc-c5RTEf.JNdkSc .JNdkSc-SmKAyb{padding-left:5%;padding-right:5%;}
-.hJDwNd-AhqUyc-c5RTEf .hJDwNd-AhqUyc-c5RTEf{width:100%;}
 .hJDwNd-AhqUyc-OiUrBf{width:66.6666666667%;}
 .hJDwNd-AhqUyc-OiUrBf.JNdkSc .JNdkSc-SmKAyb{padding-left:1.875%;padding-right:1.875%;}
 .hJDwNd-AhqUyc-OiUrBf .hJDwNd-AhqUyc-OiUrBf{width:100%;}
@@ -332,97 +299,100 @@ html{font-size:16px;}
 .LS81yb,.oKdM2c{max-width:544px;}
 .JNdkSc-SmKAyb{padding-left:2.5%;padding-right:2.5%;}
 }
-.Y8Sxfc{background-color:rgba(0,0,0,.03);height:100%;left:0;position:absolute;outline:2px dashed rgba(0,0,0,.10);overflow:hidden;top:0;width:100%;}
 .bKy5e{position:absolute;top:0;left:0;right:0;display:-webkit-box;display:-webkit-flex;display:flex;z-index:90;width:100%;pointer-events:none;}
 .rrJNTc{margin:5px auto;display:-webkit-box;display:-webkit-flex;display:flex;border-radius:32px;background-color:rgba(32,33,36,.75);padding:0 8px;overflow:hidden;height:64px;width:500px;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;opacity:0;}
 .WsSUlf{height:48px;margin-top:0;margin-bottom:0;border-radius:24px;position:relative;margin-top:8px;margin-bottom:8px;}
 .WsSUlf .VfPpkd-RLmnJb{height:100%;}
 .WsSUlf .VfPpkd-Jh9lGc{border-radius:24px;}
-.WsSUlf:focus{outline:5px auto Highlight;outline:5px auto -webkit-focus-ring-color;}
-.MAXCNe{display:block;-webkit-transition:.35s cubic-bezier(0.4,0,0.2,1);transition:.35s cubic-bezier(0.4,0,0.2,1);background:#f5f5f5;}
-@media print{
-.MAXCNe{display:none;}
-}
-.EI709d{color:#616161;}
-.J1oeHf{width:100%;}
+.WsSUlf:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-J1Ukfc-LhBDec{border-radius:30px;}
+.WsSUlf:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-J1Ukfc-LhBDec::after{border-radius:32px;}
 input{font-family:inherit;}
 /*! CSS Used from: Embedded */
 .M63kCb{background-color:rgba(255,255,255,1);}
 .OUGEr{color:rgba(33,33,33,1);}
-.duRjpb .OUGEr{color:rgba(61,16,21,1);}
-.JYVBee .OUGEr{color:rgba(61,16,21,1);}
-.OmQG5e .OUGEr{color:rgba(33,33,33,1);}
-.O13XJf{height:340px;padding-bottom:60px;padding-top:60px;}
-.O13XJf .IFuOkc{background-color:rgba(61,16,21,1);background-image:url(https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);}
-.O13XJf .IFuOkc:before{background-color:rgba(33,33,33,1);opacity:0.4;display:block;}
+.JYVBee .OUGEr{color:rgba(33,33,33,1);}
+.lQAHbd .zfr3Q{color:rgba(225,223,219,1);}
+.lQAHbd:before{background-color:rgba(48,48,51,1);display:block;}
+.cJgDec .zfr3Q{color:rgba(225,223,219,1);}
+.cJgDec .IFuOkc:before{background-color:rgba(33,33,33,1);opacity:0;display:block;}
+.O13XJf{height:360px;padding-bottom:60px;padding-top:60px;}
+.O13XJf .IFuOkc{background-color:rgba(48,48,51,1);background-image:url(https://ssl.gstatic.com/atari/images/label-maker-header-cropped.jpg);}
+.nyKByd.O13XJf .IFuOkc:after{background-color:transparent;opacity:0.3;display:block;}
+.O13XJf .IFuOkc:before{background-color:rgba(33,33,33,1);opacity:0.5;display:block;}
 .O13XJf .zfr3Q{color:rgba(255,255,255,1);}
 .O13XJf .duRjpb{color:rgba(255,255,255,1);}
-.TlfmSc{color:rgba(255,255,255,1);font-family:Lato, sans-serif;font-size:15pt;font-weight:300;line-height:1.333;}
-.zDUgLc{background-color:rgba(33,33,33,1);}
+.O13XJf .JYVBee{color:rgba(255,255,255,1);}
+.O13XJf .lkHyyc:before{border-color:rgba(255,255,255,1);border-radius:20px;border-style:solid;border-width:8px;display:block;}
+.TlfmSc{color:rgba(255,255,255,1);font-family:Montserrat, sans-serif;font-size:18pt;font-weight:700;letter-spacing:0px;}
+.zDUgLc{background-color:rgba(27,27,27,1);}
 .fOU46b .TlfmSc{color:rgba(255,255,255,1);}
 .fOU46b .zDUgLc{opacity:0;}
-.zfr3Q{color:rgba(33,33,33,1);font-family:Lato, sans-serif;font-size:11pt;font-weight:400;line-height:1.6667;margin-top:12px;}
-.duRjpb{color:rgba(61,16,21,1);font-family:Lato, sans-serif;font-size:34pt;font-weight:300;letter-spacing:0.5px;line-height:1.2;margin-top:30px;}
-.Ap4VC{margin-bottom:-30px;}
-.JYVBee{color:rgba(61,16,21,1);font-family:Lato, sans-serif;font-size:19pt;font-weight:400;line-height:1.4;margin-top:20px;}
-.CobnVe{margin-bottom:-20px;}
-.OmQG5e{color:rgba(33,33,33,1);font-family:Lato, sans-serif;font-size:15pt;font-style:normal;font-weight:400;line-height:1.25;margin-top:16px;}
-.GV3q8e{margin-bottom:-16px;}
-.LB7kq .duRjpb{font-size:64pt;letter-spacing:2px;line-height:1;margin-top:40px;}
-@media only screen and (max-width: 479px){
-.LB7kq .duRjpb{font-size:40pt;}
-}
+.zfr3Q{color:rgba(33,33,33,1);font-family:'Open Sans', sans-serif;font-size:12pt;font-weight:400;line-height:1.75;margin-top:15px;}
+.duRjpb{color:rgba(33,33,33,1);font-family:Montserrat, sans-serif;font-size:29pt;font-weight:700;letter-spacing:-1px;line-height:1.44;margin-top:25px;}
+.JYVBee{color:rgba(33,33,33,1);font-family:Montserrat, sans-serif;font-size:20pt;font-weight:400;line-height:1.56;margin-top:10px;}
+.CobnVe{margin-bottom:-10px;}
+.LB7kq .duRjpb{font-size:54pt;font-weight:700;letter-spacing:-0.6px;line-height:1.11;margin-top:35px;}
+.LB7kq .lkHyyc{padding-bottom:44px;padding-left:56px;padding-right:56px;padding-top:44px;}
 @media only screen and (min-width: 480px) and (max-width: 767px){
-.LB7kq .duRjpb{font-size:53pt;}
-}
-.O13XJf{height:340px;padding-bottom:60px;padding-top:60px;}
-@media only screen and (min-width: 480px) and (max-width: 767px){
-.O13XJf{height:280px;padding-bottom:40px;padding-top:40px;}
+.LB7kq .lkHyyc{padding-bottom:30px;padding-top:30px;}
 }
 @media only screen and (max-width: 479px){
-.O13XJf{height:250px;padding-bottom:30px;padding-top:30px;}
+.LB7kq .lkHyyc{padding-bottom:20px;padding-left:10px;padding-right:10px;padding-top:20px;}
 }
-.SBrW1{height:520px;}
+.LB7kq .JYVBee{font-size:38pt;font-weight:400;letter-spacing:-1px;line-height:1.11;margin-top:20px;}
+@media only screen and (max-width: 479px){
+.LB7kq .duRjpb{font-size:35pt;}
+}
 @media only screen and (min-width: 480px) and (max-width: 767px){
-.SBrW1{height:520px;}
+.LB7kq .duRjpb{font-size:46pt;}
+}
+@media only screen and (max-width: 479px){
+.LB7kq .JYVBee{font-size:26pt;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.LB7kq .JYVBee{font-size:33pt;}
+}
+.O13XJf{height:360px;padding-bottom:60px;padding-top:60px;}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.O13XJf{height:320px;padding-bottom:60px;padding-top:60px;}
+}
+@media only screen and (max-width: 479px){
+.O13XJf{height:250px;padding-bottom:55px;padding-top:55px;}
+}
+.SBrW1{height:540px;}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.SBrW1{height:540px;}
 }
 @media only screen and (max-width: 479px){
 .SBrW1{height:400px;}
 }
-.TlfmSc{font-family:Lato, sans-serif;font-size:15pt;font-weight:300;line-height:1.333;}
+.TlfmSc{font-family:Montserrat, sans-serif;font-size:18pt;font-weight:700;letter-spacing:0px;}
 .zDUgLc{opacity:1;}
-.QmpIrf{background-color:rgba(61,16,21,1);border-color:rgba(255,255,255,1);color:rgba(255,255,255,1);font-family:Lato, sans-serif;font-size:11pt;line-height:normal;}
-.O13XJf .QmpIrf{background-color:rgba(255,255,255,1);border-color:rgba(61,16,21,1);color:rgba(61,16,21,1);font-family:Lato, sans-serif;font-size:11pt;line-height:normal;}
 @media only screen and (max-width: 479px){
-.TlfmSc{font-size:13pt;}
+.TlfmSc{font-size:15pt;}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
-.TlfmSc{font-size:14pt;}
+.TlfmSc{font-size:17pt;}
 }
 @media only screen and (max-width: 479px){
-.duRjpb{font-size:24pt;}
+.duRjpb{font-size:21pt;}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
-.duRjpb{font-size:29pt;}
+.duRjpb{font-size:26pt;}
 }
 @media only screen and (max-width: 479px){
-.JYVBee{font-size:15pt;}
+.JYVBee{font-size:16pt;}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
-.JYVBee{font-size:17pt;}
+.JYVBee{font-size:18pt;}
 }
 @media only screen and (max-width: 479px){
-.OmQG5e{font-size:13pt;}
+.TlfmSc{font-size:15pt;}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
-.OmQG5e{font-size:14pt;}
+.TlfmSc{font-size:17pt;}
 }
-@media only screen and (max-width: 479px){
-.TlfmSc{font-size:13pt;}
-}
-@media only screen and (min-width: 480px) and (max-width: 767px){
-.TlfmSc{font-size:14pt;}
-}
+section[id="h.INITIAL_GRID.85u6di9ec7a5"] .IFuOkc:before{opacity:0.5;}
 /*! CSS Used from: Embedded */
 .rrJNTc{opacity:0;}
 .bKy5e{pointer-events:none;position:absolute;top:0;}
@@ -481,15 +451,45 @@ input{font-family:inherit;}
 @font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/googlesans/v44/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj0UvbQoi-Entw.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
 @font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/googlesans/v44/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvbQoi-Entw.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
 @font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/googlesans/v44/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvbQoi-E.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-@font-face{font-family:'Lato';font-style:italic;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI9w2_FQftx9897sxZ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Lato';font-style:italic;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI9w2_Gwftx9897g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-@font-face{font-family:'Lato';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Lato';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-@font-face{font-family:'Lato';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Lato';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-@font-face{font-family:'Lato';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USSwaPGQ3q5d0N7w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Lato';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USSwiPGQ3q5d0.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-@font-face{font-family:'Lato';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Lato';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-@font-face{font-family:'Lato';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Lato';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06FxZCJgvAQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2) format('woff2');unicode-range:U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2) format('woff2');unicode-range:U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v28/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
